@@ -1,3 +1,5 @@
+// GitHub practice
+
 //Generate the board that the player sees
 const generatePlayerBoard = (numberOfRows, numberOfColumns) => {
   const board = [];
@@ -87,7 +89,7 @@ const printBoard = board => {
   console.log(board.map(row => row.join(' | ')).join('\n'));
 };
 
-//Test the code 
+//Test the code
 let playerBoard = generatePlayerBoard(3, 3);
 let bombBoard = generateBombBoard(3, 3, 3);
 printBoard(playerBoard);
